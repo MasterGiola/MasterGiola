@@ -1,0 +1,84 @@
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3b3465"/>
+      <stop offset="20%" stop-color="#5c4a75"/>
+      <stop offset="40%" stop-color="#8a5b78"/>
+      <stop offset="60%" stop-color="#c06a5e"/>
+      <stop offset="80%" stop-color="#e08a4a"/>
+      <stop offset="100%" stop-color="#f0a743"/>
+    </linearGradient>
+    <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c9765f"/>
+      <stop offset="100%" stop-color="#6b3f52"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="400" fill="url(#sky)"/>
+
+  <!-- sun with glow rings -->
+  <circle cx="900" cy="150" r="90" fill="#f6c66a" opacity="0.15"/>
+  <circle cx="900" cy="150" r="65" fill="#f8d27f" opacity="0.25"/>
+  <circle cx="900" cy="150" r="38" fill="#fdeec2"/>
+
+  <!-- stars -->
+  <circle cx="640" cy="230" r="2" fill="#ffffff" opacity="0.7"/>
+  <circle cx="670" cy="255" r="1.5" fill="#ffffff" opacity="0.6"/>
+  <circle cx="655" cy="270" r="1.5" fill="#ffffff" opacity="0.5"/>
+
+  <!-- far mountains -->
+  <polygon points="0,220 100,140 220,210 340,120 460,200 600,150 760,215 900,160 1040,210 1200,170 1200,400 0,400"
+           fill="#5a3556" opacity="0.55"/>
+
+  <!-- mid mountains -->
+  <polygon points="0,260 140,190 260,250 420,170 560,240 720,180 880,245 1000,195 1200,235 1200,400 0,400"
+           fill="#7a3d4d" opacity="0.8"/>
+
+  <!-- lake band -->
+  <polygon points="380,300 520,265 700,265 850,300 850,400 380,400" fill="url(#lake)" opacity="0.85"/>
+  <!-- reflection ripple lines -->
+  <line x1="450" y1="320" x2="520" y2="320" stroke="#e6c48f" stroke-width="2" opacity="0.4"/>
+  <line x1="620" y1="335" x2="700" y2="335" stroke="#e6c48f" stroke-width="2" opacity="0.3"/>
+  <line x1="500" y1="350" x2="560" y2="350" stroke="#e6c48f" stroke-width="2" opacity="0.3"/>
+
+  <!-- near ridge -->
+  <polygon points="0,320 150,270 300,315 480,260 650,310 820,265 1000,315 1200,275 1200,400 0,400"
+           fill="#3a1f34"/>
+
+  <!-- left pine trees -->
+  <g fill="#241a35">
+    <polygon points="60,220 100,120 140,220"/>
+    <polygon points="72,190 100,105 128,190"/>
+    <polygon points="10,260 55,150 100,260"/>
+    <polygon points="24,225 55,140 86,225"/>
+    <rect x="52" y="255" width="6" height="20"/>
+  </g>
+
+  <!-- right pine trees -->
+  <g fill="#241a35">
+    <polygon points="1080,230 1120,130 1160,230"/>
+    <polygon points="1092,200 1120,115 1148,200"/>
+    <polygon points="1140,270 1185,155 1230,270"/>
+    <polygon points="1154,235 1185,145 1216,235"/>
+    <rect x="1182" y="265" width="6" height="20"/>
+  </g>
+
+  <!-- simple deer silhouette -->
+  <g fill="#20152e">
+    <rect x="330" y="330" width="55" height="26" rx="4"/>
+    <rect x="378" y="310" width="14" height="46"/>
+    <rect x="338" y="352" width="8" height="24"/>
+    <rect x="358" y="352" width="8" height="24"/>
+    <rect x="372" y="352" width="8" height="24"/>
+    <!-- antlers -->
+    <polygon points="382,308 372,286 378,286 386,304"/>
+    <polygon points="382,308 392,282 396,284 388,306"/>
+    <polygon points="390,296 398,282 400,286 392,300"/>
+  </g>
+
+  <!-- text -->
+  <text x="600" y="160" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold"
+        font-size="46" fill="#ffffff" letter-spacing="2">Hi, I'm Jacopo!</text>
+  <text x="600" y="205" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold"
+        font-size="24" fill="#ffffff" letter-spacing="1">Computer Engineering · AI &amp; Robotics</text>
+</svg>
