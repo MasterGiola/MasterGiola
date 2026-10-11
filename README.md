@@ -23,5 +23,5 @@ I'm a double-degree student in **Computer Engineering – AI & Robotics** at the
 <br>
 
 ### 📫 Find me
-<a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-4facfe?style=flat&logo=gmail&logoColor=white"/></a>
-<a href="https://linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:jacopo.lorigiola@gmail.com"><img src="https://img.shields.io/badge/Email-4facfe?style=flat&logo=gmail&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/jacopo-lorigiola"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/></a>
